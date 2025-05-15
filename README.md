@@ -1,55 +1,73 @@
-# 📊 Task 2: Data Visualization and Storytelling
+#   📊 Task 2: Data Visualization and Storytelling
 
-**Internship Task**: Virtual Data Analyst Internship  
-**Objective**: Create visualizations using sales data to convey meaningful business insights.  
-**Tools Used**: Google Sheets, Google Looker Studio (Data Studio)
-
----
-
-## 📁 Dataset
-- **Name**: Superstore.csv
-- **Source**: Provided for task (uploaded to Google Sheets for use in Looker Studio)
+**Internship Task**: Virtual Data Analyst Internship
+**Objective**: Create visualizations using sales data to convey meaningful business insights.
+**Tools Used**: Power BI
 
 ---
 
-## 📈 Visualizations Created
+##   📁 Dataset
 
-### 1. Sales by Category (Bar Chart)
-- **Insight**: Technology has the highest sales, followed by Furniture and Office Supplies.
-
-### 2. Monthly Sales Trend (Time Series Chart)
-- **Insight**: Sales peak during November and December, showing strong year-end performance.
-
-### 3. Profit by State (Geo Chart)
-- **Insight**: California generates the most profit; Texas and Illinois show losses.
-
-### 4. Profit by Segment (Pie Chart)
-- **Insight**: Consumer segment is the most profitable, followed by Corporate and Home Office.
+-   **Name**: Superstore.csv
+-   **Source**: [https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting](https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting)
 
 ---
 
-##  Summary of Insights
+##   📈 Visualizations Created
+
+###    1.  Sum of Sales by Order Date (Time Series Chart) 
+
+-   **Type:** Line Chart
+-   **Insight**: Sales show significant fluctuations over time, with peaks and troughs indicating volatility. Further analysis is needed to identify patterns or trends.
+    * Sales are not consistent over time.
+    * There are some high peaks, suggesting outliers or campaigns.
+    * Seasonality is not immediately clear.
+
+###    2.  Sum of Sales by Sub-Category and Category (Clustered Bar Chart) 
+
+-   **Type:** Clustered Bar Chart
+-   **Insight**: Technology and Furniture categories drive the most sales. Phones, Accessories, Chairs, and Furniture are key contributors. Some sub-categories have very low sales.
+    * Technology: Phones and Accessories are strong.
+    * Furniture: Chairs and Furniture are strong.
+    * Office Supplies: More varied performance.
+
+###    3.  Sum of Sales by Sub-Category (Pie Chart) 
+
+-   **Type:** Pie Chart
+-   **Insight**: A small number of sub-categories (Phones, Chairs, Storage, Tables) account for a large portion of the total sales, highlighting their importance.
+    * Phones and Chairs dominate.
+    * Many sub-categories have small contributions.
+
+###    4.  Sum of Sales by Region (Bar Chart) 
+
+-   **Type:** Bar Chart
+-   **Insight**: The West and East regions significantly outperform the Central and South regions in terms of sales.
+    * West and East are strong.
+    * South is the weakest.
+
+---
+
+##   Summary of Insights
+
 The dashboard highlights key trends in the sales data:
-- Technology and Consumer segments are top performers.
-- Sales follow seasonal trends, peaking during the holiday season.
-- Profitability is not uniform across states, indicating potential areas for improvement.
+
+-   Technology and Furniture categories, particularly Phones, Accessories, and Chairs, are key sales drivers.
+-   Sales fluctuate significantly over time, requiring further investigation into the causes of volatility.
+-   A small number of sub-categories contribute a large portion of overall sales.
+-   The West and East regions are the primary sales generators.
 
 ---
 
-## 📷 Screenshots
-All charts were created using Google Looker Studio and exported as images.  
-See the `screenshots/` folder for:
-- chart1_sales_by_category.png  
-- chart2_monthly_sales_trend.png  
-- chart3_profit_by_state.png  
-- chart4_profit_by_segment.png
+##   📄 PDF Output
+
+The visualizations were created using Power BI and exported as a PDF document named `super-store-sales-REPORT.pdf`.
 
 ---
 
+##   Submission
 
-## Submission
-- All required files are included:
-  - `Superstore.csv`
-  - `README.md`
-  - `screenshots/` folder with 4 visualizations
+All required files are included:
 
+-   `Superstore.csv`
+-   `README.md`
+-   `sales_dashboard.pdf`
