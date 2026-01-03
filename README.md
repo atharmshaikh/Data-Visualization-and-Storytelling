@@ -71,3 +71,10 @@ All required files are included:
 -   `Superstore.csv`
 -   `README.md`
 -   `sales_dashboard.pdf`
+
+> ⚠️ **Repository Archived**
+>
+> This project has been consolidated into a unified internship repository.
+>  
+> 👉 **Active version:**  
+> https://github.com/atharmshaikh/data-analyst-internship-tasks/tree/main/Task-02_Data-Visualization-and-Storytelling
